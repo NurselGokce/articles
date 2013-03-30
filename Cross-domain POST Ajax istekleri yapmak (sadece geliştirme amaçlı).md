@@ -42,3 +42,6 @@ Client tarafından ise bu duruma uygun istekler (genellikle ```withCredentials: 
 
 Hepsi bukadar.
 İyi çalışmalar.
+
+### Etiketler
+chrome, cross-domain, ajax, mobile
