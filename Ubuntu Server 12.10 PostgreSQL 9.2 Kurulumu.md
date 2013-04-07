@@ -98,3 +98,20 @@ Updating the super catalog...
 ```
 
 ### Konfigurasyon
+
+İlk yapmanız gereken postgres kullanıcısına bir şifre belirlemek olmalı. Bunun için konsola aşağıdakı komutları girip posgtres kullanıcısına bir şifre belirlemek olmalı.
+
+```bash
+$ su - postgres
+$ passwd postgres
+Enter new unix password:
+```
+
+Ardından Psql e geçin ve ```\password``` komutunu çalıştırın. Az once belirlediğiniz şifreyi tekrar girin. ; 
+```bash
+$ su - postgres psql
+```
+
+Artık postgres kullanıcısına şifre belirlemiş oldunuz.
+
+Bu aşamadan sonra detaylı ayarları yapmak için  configurasyon dosyalarına nasıl müdehale etmeniz gerektiğini anlatan ikinci bir makale daha hazırlayacağım.
