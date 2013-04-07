@@ -1,9 +1,10 @@
+### Kurulum
+
 Kuruluma başlamadan önce
 
 ```$ sudo apt-get update && sudo apt-get upgrade```
 
-Ardından Aşağıdaki paket kuruluyor. Bu paketleri kurmamızın sebebi  ```add-apt-repository ppa:pitti/postgresql``` komutunu çalıştırabilmek içindir.
-Bu komut ubuntu 12.10 ile birlikte varsayılan olarak çalışmamakta.
+Ardından Aşağıdaki paket kuruluyor. Bu paketleri kurmamızın sebebi  ```add-apt-repository ppa:pitti/postgresql``` komutunu çalıştırabilmek içindir. Bu komut ubuntu 12.10 ile birlikte varsayılan olarak çalışmamakta.
 
 ```$ sudo apt-get install python-software-properties &&  sudo apt-get install software-properties-common```
 
@@ -17,9 +18,8 @@ Bu işlemlerden sonra aşağıdaki komutla repoları güncelliyoruz.
 
 Son olarak aşağıdaki komut ile postgresql 9.2 kurulumunu tamamlıyoruz. Ben kurulumu yaptıgım zamanda 9.2.4 kurulumunu yapmıştı.
 
-```bash
+```console
 $ sudo apt-get install postgresql-9.2
-
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -96,3 +96,5 @@ ldconfig deferred processing now taking place
 Processing triggers for sgml-base ...
 Updating the super catalog...
 ```
+
+### Konfigurasyon
